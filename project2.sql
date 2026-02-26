@@ -1,4 +1,3 @@
--- TODO ga qara
 
 CREATE TABLE IF NOT EXISTS categories (
     id SERIAL PRIMARY KEY,

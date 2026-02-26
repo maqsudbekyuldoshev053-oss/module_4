@@ -1,0 +1,40 @@
+sql da ishlash uchun avval postgresql urnatib database yaratamiz
+
+container, image, network, volume
+
+
+docker ps                # ishlab turgan containerlarni korish
+docker ps -a             # barcha containerlarni korish
+docker restart container_id | container_name #  ishlab turgan containerni restart qiladi
+docker start container_id | container_name # start qilish
+docker stop container_id | container_name # stop qilish
+docker rm container_id | container_name # remove qilish
+
+docker run --name my_postgres -e POSTGRES_PASSWORD=1 -p 5432:5432 -d postgres:alpine -"database tyaratish"
+docker rm my_postgres - uchirish
+dockerhub
+
+postgres, redis, python, telegram bot, backend (fastapi, django)
+
+docker start my_project
+
+pgadmin
+docker image ls
+docker pull image_name
+
+
+2. docker komandalar, linux komandalar (ls, mv, rm, cd, touch, nano, )
+
+
+key
+1. pk - primary key (not null + unique)
+2. uk - unique key
+3. fk - foreign key
+
+relationship
+OneToOne        1-1
+OneToMany       1-n
+ManyToOne       n-1
+ManyToMany      n-n
+
+

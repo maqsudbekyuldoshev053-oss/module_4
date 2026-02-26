@@ -1,4 +1,3 @@
--- TODO ga qara
 
 create database p37_database;
 
