@@ -10,13 +10,13 @@ docker start container_id | container_name # start qilish
 docker stop container_id | container_name # stop qilish
 docker rm container_id | container_name # remove qilish
 
-docker run --name my_postgres -e POSTGRES_PASSWORD=1 -p 5432:5432 -d postgres:alpine -"database tyaratish"
-docker rm my_postgres - uchirish
+docker run --name database_name -e POSTGRES_PASSWORD=parol -p port:port -d user:alpine ---"database tyaratish"
+docker rm database_name - uchirish
 dockerhub
 
 postgres, redis, python, telegram bot, backend (fastapi, django)
 
-docker start my_project
+docker start database_name or container_id
 
 pgadmin
 docker image ls
